@@ -1,0 +1,1 @@
+pytest_plugins = ['fake_store_api.fake_store_api_tests.fixtures.products_fixtures']
