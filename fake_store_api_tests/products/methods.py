@@ -2,7 +2,7 @@ import requests
 
 from fake_store_api.fake_store_api_tests.endpoints import PRODUCTS
 
-class FakeStoreAPIMethods:
+class ProductsMethods:
     @classmethod
     def get_products(cls):
         response = requests.get(PRODUCTS)
