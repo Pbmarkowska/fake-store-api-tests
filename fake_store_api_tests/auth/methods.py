@@ -14,8 +14,8 @@ class AuthenticationMethods:
         response = requests.post(LOGIN, json=payload)
         return response
 
-    @classmethod
-    def generate_login_data(cls):
+    @staticmethod
+    def generate_login_data():
         random_username = f"{random.randint(1,100)}_username"
         random_password = f"pass{random.randint(1,100)}"
 
